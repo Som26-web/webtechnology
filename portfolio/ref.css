@@ -1,0 +1,36 @@
+.navbar {
+    list-style-type: none; /* remove bullet points */
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+ 
+  }
+    
+  
+  .navbar li a {
+    display: block; /* display links as block elements */
+    color: black;
+    padding: 20px 15PX;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  
+  .navbar li a:hover {
+    background-color: #ddd;
+    color: red;
+    
+  }
+  .ref{
+background-color: whitesmoke;
+height: 700px;
+  }.ref h1{
+    text-align: center;
+    font-size: 50px;
+   padding: 30px;
+  }
+  .ref li{
+    font-size: 18px;
+    margin-left: 450px;
+    padding: 15px;
+    
+  }

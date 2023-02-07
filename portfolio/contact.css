@@ -1,0 +1,151 @@
+.navbar {
+    list-style-type: none; /* remove bullet points */
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+    
+  
+  
+  
+  .navbar li a {
+    display: block; /* display links as block elements */
+    color: black;
+    padding: 20px 15PX;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  
+  .navbar li a:hover {
+    background-color: #ddd;
+    color: red;
+    
+  }
+  .circle img{
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    margin-left: 300px;
+    margin-top: 150px;
+  }
+  .container{
+    background-color: whitesmoke;
+  }
+  .container h2{
+    font-size: 50px;
+    text-align: center;
+    padding: 90px;
+     
+  }
+.contact-box{
+    display: flex;
+   
+
+}.contact-left{
+    flex-basis: 50%;
+    padding: 40px 150px;
+   
+    height: 800px;
+    
+}.contact-right{
+    flex-basis: 55%;
+    padding: 40px 150px;
+    height: 800px;
+    
+    
+    height: 500px;
+}.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}.input-row .input{
+    flex-basis:45% ;
+    
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #acc;
+    padding-bottom: 20px ;
+    
+}
+textarea{
+    width: 100%;
+    border: 1px solid #acc;
+    padding: 10px;
+}label{
+    margin-bottom: 10px;
+    display: block;
+    color: #1c00b5;
+}button{
+    background-color: #1c00b5;
+    width: 100px;
+    color: #fff;
+    border: none;
+    height:35px ;
+    outline: none;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 20px;
+
+
+}tr td:first-child{
+    padding-right: 30px;
+
+
+}tr td{
+    padding-top: 30px;
+    font-size: 18px;
+
+}.contact-left a img{
+   height: 50px;
+   padding: 10px;
+   margin-top: 50px;
+   margin-left: 40px;
+   
+  
+   
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+ 
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }.footer-col{
+   padding: 0 90px; 
+
+    
+
+}.footer-col h4{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+   
+    
+    padding: 40px;
+}.footer-col p{
+    margin-top: -30px;
+}
+.footer-col a img{
+    height: 50px;
+   padding: 9px;
+   margin-top: -65px;
+
+   
+}.footer-col h1{
+    font-size: 25px;
+    margin-top: 70px;
+}
