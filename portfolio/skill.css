@@ -1,6 +1,4 @@
-body{
- 
-}
+
 .navbar {
     list-style-type: none; /* remove bullet points */
     display: flex;
@@ -11,15 +9,7 @@ body{
     
   
   
-  .navbar li {
-   
-   
-    
-    
- 
-    
-  }
-  
+
   .navbar li a {
     display: block; /* display links as block elements */
     color: black;
